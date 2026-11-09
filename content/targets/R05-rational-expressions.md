@@ -4,33 +4,14 @@ title: Fractions with letters in them
 subtitle: One rule, four moves, and how to tell which one you need
 domain: Advanced Math
 primitive: clear denominators
-from_sweep: SW07 Equivalent expressions
 types:
   - combine rational expressions
   - rational expression simplification
   - rational equation manipulation
-surface: >
-  44 of 1077 assigned questions (4.1%) — 5 under `combine rational expressions`,
-  7 under `rational expression simplification`, 23 under `rational equation
-  manipulation`, 9 under `solve for an unknown in a proportion`. That is below
-  the 7% bar a sheet normally has to clear, and it is stated here deliberately.
-  Two things argue for it anyway. `combine rational expressions` came out of SW07
-  at 0/2 with no method at all on the page, which made it the only outright
-  method vacuum on the board. And 23 of those 44 questions sit in
-  `rational equation manipulation`, which has NOT been swept yet — so this is the
-  one sheet that can land before the sweep meets its own subject rather than
-  after.
 built_from: >
-  Khan "Operations with rational expressions" (advanced-math). Its identity a/b ± c/d = (ad ± bc)/(bd) and its five-step
-  procedure are the spine of Part 1. The lesson was missing from khan_map.json
-  entirely — added as M18.
-style_note: >
-  Requested by the learner, who named fraction rules as the biggest weakness
-  and asked for a method and muscle memory rather than an explanation. So this
-  sheet is METHOD-first, not why-first — the reverse of R04, which was written
-  as a derivation. The decision page in
-  Part 5 is the muscle-memory piece: which of the four moves, decided from the
-  shape of the question rather than by trying one.
+  Khan "Operations with rational expressions" (advanced-math, M18 in
+  tools/khan_map.json). Its identity a/b ± c/d = (ad ± bc)/(bd) and its
+  five-step procedure are the spine of Part 1.
 ---
 
 <!-- PAGE -->

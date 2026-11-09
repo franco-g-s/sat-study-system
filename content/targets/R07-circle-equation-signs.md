@@ -4,32 +4,11 @@ title: The circle equation, and where the signs go
 subtitle: Not a re-derivation — a sign convention, a check, and what the equation tells you
 domain: Geometry and Trigonometry
 primitive: complete the square
-from_sweep: SW08 Circles
 types:
   - centre and radius from standard form
   - coordinate constraints from the circle equation
   - transform a circle equation
   - circumference from arc information
-surface: >
-  34 of 1077 assigned questions (3.2%) across the four types — 13 centre and
-  radius, 9 transform, 6 coordinate constraints, 6 circumference from arc.
-  Below the 7% bar and stated deliberately. What carries it is not the surface,
-  it is that this is a REPEAT failure: completing the square had already been
-  taught (M02) and applied to circles (M03), and a later sweep still showed both
-  signs wrong when completing the square and the circle equation forgotten
-  outright.
-why_not_a_rederivation: >
-  M02 already derived it, and M03 re-teaches nothing because M02 had just
-  covered it. Repeating that would be doing the same thing a third time and
-  expecting a different result. What fails is not the derivation — it is the
-  SIGN convention and the absence of a check. So this sheet spends its pages on
-  the two sign flips, on a ten-second verification that makes the error
-  self-catching, and on what the finished equation actually tells you.
-style_note: >
-  Scoped to the learner's own list of what to cover: completing the square,
-  coordinate constraints, and the arc question type. Arcs have nothing to do
-  with the equation, so they get their own short part rather than being forced
-  into the same frame.
 ---
 
 <!-- PAGE -->
