@@ -95,7 +95,7 @@ test('the used-questions stem matches the filename build_note.mjs saves under', 
   assert.equal(drillStem('DR01', '2026-09-12'), drillBasename('DR01', '2026-09-12'));
 });
 
-test('--dry writes nothing at all', async () => {
+test('--dry writes nothing at all', async (t) => {
   // Borrowed from the MX (mixed-set) suite. --dry short-circuits before writeFileSync,
   // but nothing enforced that, and the failure would be silent and slow: a
   // --dry run that consumed bank questions would only surface weeks later as a
@@ -109,9 +109,17 @@ test('--dry writes nothing at all', async () => {
   const stateBefore = readFileSync(`${root}state/types.json`);
   const targetsBefore = readdirSync(`${root}content/targets`).sort();
 
-  execFileSync(process.execPath, [
-    `${root}tools/build_drill.mjs`, '--dry', '--n', '16', '--date', '2026-09-12',
-  ], { encoding: 'utf8' });
+  try {
+    execFileSync(process.execPath, [
+      `${root}tools/build_drill.mjs`, '--dry', '--n', '16', '--date', '2026-09-12',
+    ], { encoding: 'utf8', stdio: 'pipe' });
+  } catch (e) {
+    if (/nothing to drill/.test(String(e.stderr))) {
+      t.skip('no drillable types in state/types.json yet (a fresh install)');
+      return;
+    }
+    throw e;
+  }
 
   assert.ok(usedBefore.equals(readFileSync(`${root}state/used_questions.json`)), 'used_questions.json changed');
   assert.ok(stateBefore.equals(readFileSync(`${root}state/types.json`)), 'types.json changed');

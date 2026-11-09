@@ -140,10 +140,22 @@ def test_the_suite_never_touched_the_real_file():
     assert open(REAL, 'rb').read() == REAL_BYTES
 
 
+# The real-merge tests replay the image-tagging pass, whose task manifest is not
+# shipped (it points at local question crops). Without it they are skipped.
+NEEDS_MANIFEST = {
+    'test_without_the_overlay_the_real_merge_refuses_and_writes_nothing',
+    'test_allow_deletions_is_the_explicit_override',
+    'test_the_real_merge_is_a_pure_function_of_its_inputs',
+}
+HAVE_MANIFEST = os.path.exists(os.path.join(ma.ROOT, 'data', 'assign', 'tasks', '_manifest.json'))
+
 if __name__ == '__main__':
     tests = [(n, f) for n, f in list(globals().items()) if n.startswith('test_') and callable(f)]
     failed = 0
     for n, f in tests:
+        if n in NEEDS_MANIFEST and not HAVE_MANIFEST:
+            print(f'skip  {n} (no data/assign/tasks/_manifest.json)')
+            continue
         try:
             f()
             print(f'ok    {n}')

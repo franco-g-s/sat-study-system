@@ -304,9 +304,9 @@ image.
 
 `*.test.mjs` (run with `node --test`) and `*.test.py` (run with `python3`).
 `npm run test:unit` runs the tests that need no data, and they pass in a fresh
-checkout. `npm test` runs everything, but it is a **maintainer suite**. Many
-tests need a finished setup: indexes, `state/types.json`,
-`state/used_questions.json` (created by your first build), and a built
-xiehanzi. Some also rely on question IDs from the original export, or on
-tagging-pass working files that aren't shipped. Expect failures from those
-even after a correct setup.
+checkout. `npm test` runs everything and needs a finished setup: the indexes,
+`state/types.json`, `state/used_questions.json` (created by your first build)
+and a built xiehanzi. After the setup guide through step 5 it passes, with a
+handful of tests **skipped**: the ones that replay the original learner's
+history or the image-tagging pass, whose working files aren't shipped. Each
+skip prints why.

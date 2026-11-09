@@ -376,6 +376,10 @@ test('smoke: the real board — a short sheet is explained, and nothing is broke
   const cooling = shortfalls.filter((s) => s.reason === 'cooling down');
   t.diagnostic(`real board: ${picks.length}/${n} filled, ${exhausted.length} type(s) exhausted, ${cooling.length} cooling down, ${relaxed.length} constraint(s) relaxed`);
 
+  if (picks.length === 0 && shortfalls.length === 0) {
+    t.skip('no drillable types in state/types.json yet (a fresh install); run a sweep and record it first');
+    return;
+  }
   assert.ok(picks.length > 0, 'the real board yields a sheet at all');
   assert.ok(picks.length <= n);
   if (picks.length < n) {

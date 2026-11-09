@@ -93,7 +93,11 @@ test('--name must start RW- because push_note routes on it', () => {
   assert.match(r.stderr, /RW-/);
 });
 
-test('--rebuild is the explicit override, and is accepted by every builder', () => {
+test('--rebuild is the explicit override, and is accepted by every builder', (t) => {
+  if (!JSON.parse(readFileSync(STATE, 'utf8'))[COLLIDING]) {
+    t.skip(`${COLLIDING} is not in state/used_questions.json; the repro needs it`);
+    return;
+  }
   const before = hash();
   const r = spawnSync('node', [RW, CS01, '--n', '11', '--difficulty', 'Hard', '--rebuild', '--dry'], { encoding: 'utf8' });
   assert.equal(r.status, 0, r.stderr);
