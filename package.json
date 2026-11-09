@@ -4,7 +4,7 @@
   "private": true,
   "description": "Turns the College Board SAT question bank into timed, handwritable study sheets for the Supernote, driven by a 100-type taxonomy of SAT maths questions.",
   "author": "Franco Gómez Schumacher",
-  "license": "MIT",
+  "license": "AGPL-3.0-only",
   "engines": {
     "node": ">=22"
   },

@@ -3,7 +3,7 @@
 **Turns the College Board's free SAT question bank into timed study sheets you
 can write on, and uses the times you write down to decide what you study next.**
 
-By Franco Gómez Schumacher. MIT licensed.
+By Franco Gómez Schumacher. Licensed under AGPL-3.0.
 
 ---
 
@@ -157,6 +157,7 @@ built from them, to a public repository.
 
 ## License
 
-[MIT](LICENSE) © 2026 Franco Gómez Schumacher. Sheet rendering depends on
-[xiehanzi](https://github.com/franco-g-s/xiehanzi), which has its own license
-(AGPL-3.0).
+[AGPL-3.0](LICENSE) © 2026 Franco Gómez Schumacher. You may use, change and
+share it. If you distribute a modified version, or run one as a network service,
+you must publish your changes under the same license. Sheet rendering depends on
+[xiehanzi](https://github.com/franco-g-s/xiehanzi), also AGPL-3.0.
