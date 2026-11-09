@@ -489,8 +489,9 @@ def the_live_state_file_was_never_touched():
     """The suite reassigns a module constant. If an import order ever undid
     that, this is the test that notices before the real data pays for it."""
     assert ts.STATE == SCRATCH, ts.STATE
-    assert 'atlas/sat/state' not in ts.STATE
-    assert ts.UNTYPED == UNTYPED_SCRATCH and 'atlas/sat/state' not in ts.UNTYPED
+    live = os.path.join(ts.ROOT, 'state')
+    assert not ts.STATE.startswith(live), ts.STATE
+    assert ts.UNTYPED == UNTYPED_SCRATCH and not ts.UNTYPED.startswith(live)
 
 
 if __name__ == '__main__':
