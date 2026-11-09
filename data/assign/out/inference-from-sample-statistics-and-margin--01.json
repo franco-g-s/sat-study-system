@@ -1,0 +1,19 @@
+[
+  {"qid": "2bab1399", "header_qid": "2bab1399", "type": "predict margin of error from sample size", "confidence": "high"},
+  {"qid": "308084c5", "header_qid": "308084c5", "type": "infer sample size from margin of error", "confidence": "high"},
+  {"qid": "3e1bd4e2", "header_qid": "3e1bd4e2", "type": "margin of error from a confidence interval", "confidence": "high"},
+  {"qid": "4096a482", "header_qid": "4096a482", "type": "interpret a confidence interval", "confidence": "high"},
+  {"qid": "53d97af5", "header_qid": "53d97af5", "type": "estimate a population quantity from a sample", "confidence": "high"},
+  {"qid": "85939da5", "header_qid": "85939da5", "type": "interpret a confidence interval", "confidence": "high"},
+  {"qid": "89f8d08a", "header_qid": "89f8d08a", "type": "estimate a population quantity from a sample", "confidence": "high"},
+  {"qid": "916ffe9b", "header_qid": "916ffe9b", "type": "estimate a population quantity from a sample", "confidence": "high"},
+  {"qid": "9ba3e283", "header_qid": "9ba3e283", "type": "estimate a population quantity from a sample", "confidence": "high"},
+  {"qid": "9bedc4a0", "header_qid": "9bedc4a0", "type": "interpret a confidence interval", "confidence": "high"},
+  {"qid": "a2162ea1", "header_qid": "a2162ea1", "type": "interpret a confidence interval", "confidence": "high"},
+  {"qid": "da978ee6", "header_qid": "da978ee6", "type": "predict margin of error from sample size", "confidence": "high"},
+  {"qid": "e03f3477", "header_qid": "e03f3477", "type": "interpret a confidence interval", "confidence": "high"},
+  {"qid": "f04d40b2", "header_qid": "f04d40b2", "type": "estimate a population quantity from a sample", "confidence": "high"},
+  {"qid": "f85bbf7a", "header_qid": "f85bbf7a", "type": "margin of error from a confidence interval", "confidence": "high"},
+  {"qid": "f8f79e11", "header_qid": "f8f79e11", "type": "interpret a confidence interval", "confidence": "high"},
+  {"qid": "fc46af57", "header_qid": "fc46af57", "type": "estimate a population quantity from a sample", "confidence": "high"}
+]

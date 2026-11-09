@@ -1,0 +1,20 @@
+{
+  "_note": "Drill target -> College Board skill(s). Skill names are matched after collapsing whitespace, because the PDF text layer drops spaces at text-run boundaries ('Geometry andTrigonometry'). CB's taxonomy is coarser than the drill queue: where several targets share one skill the selection is skill-level for now, and the LLM tagger will refine it. Where a target owns its skill outright (M03 Circles, M13 Right triangles, M15 Area and volume, M17 Percentages) selection is already exact.",
+  "M01": ["Linear equations in one variable", "Systems of two linear equations in two variables"],
+  "M02": ["Nonlinear equations in one variable and systems of equations in two variables"],
+  "M03": ["Circles"],
+  "M04": [],
+  "M05": [],
+  "M06": ["Nonlinear functions"],
+  "M07": ["Equivalent expressions"],
+  "M08": ["Nonlinear functions"],
+  "M09": ["Nonlinear functions"],
+  "M10": ["Linear equations in two variables"],
+  "M11": ["Linear inequalities in one or two variables"],
+  "M12": ["Linear functions"],
+  "M13": ["Right triangles and trigonometry"],
+  "M14": ["Lines, angles, and triangles"],
+  "M15": ["Area and volume"],
+  "M16": ["One-variable data: Distributions and measures of center and spread"],
+  "M17": ["Percentages"]
+}

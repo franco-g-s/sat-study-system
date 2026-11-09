@@ -1,0 +1,73 @@
+{
+ "_note": "Drill target -> Khan digital-SAT lesson. Khan's taxonomy is finer than College Board's, so this is close to 1:1 where CB's skills were not. M04/M05 are Desmos technique and have no Khan equivalent.",
+ "M01": {
+  "unit": "algebra",
+  "slug": "solving-systems-of-linear-equations"
+ },
+ "M02": {
+  "unit": "advanced-math",
+  "slug": "solving-quadratic-equations"
+ },
+ "M03": {
+  "unit": "geometry-and-trigonometry",
+  "slug": "circle-equations"
+ },
+ "M04": null,
+ "M05": null,
+ "M06": {
+  "unit": "problem-solving-and-data-analysis",
+  "slug": "linear-and-exponential-growth"
+ },
+ "M07": {
+  "unit": "advanced-math",
+  "slug": "operations-with-polynomials"
+ },
+ "M08": {
+  "unit": "advanced-math",
+  "slug": "nonlinear-functions"
+ },
+ "M09": {
+  "unit": "advanced-math",
+  "slug": "quadratic-graphs"
+ },
+ "M10": {
+  "unit": "algebra",
+  "slug": "systems-of-linear-equations-word-problems"
+ },
+ "M11": {
+  "unit": "algebra",
+  "slug": "solving-linear-equations-and-inequalities"
+ },
+ "M12": {
+  "unit": "algebra",
+  "slug": "graphs-of-linear-equations-and-functions"
+ },
+ "M13": {
+  "unit": "geometry-and-trigonometry",
+  "slug": "right-triangle-trigonometry"
+ },
+ "M14": {
+  "unit": "geometry-and-trigonometry",
+  "slug": "congruence-similarity-and-angle-relationships"
+ },
+ "M15": {
+  "unit": "geometry-and-trigonometry",
+  "slug": "area-and-volume"
+ },
+ "M16": {
+  "unit": "problem-solving-and-data-analysis",
+  "slug": "center-spread-and-shape-of-distributions"
+ },
+ "M17": {
+  "unit": "problem-solving-and-data-analysis",
+  "slug": "percentages"
+ },
+ "M18": {
+  "unit": "advanced-math",
+  "slug": "operations-with-rational-expressions"
+ },
+ "M19": {
+  "unit": "advanced-math",
+  "slug": "radicals-and-rational-exponents"
+ }
+}

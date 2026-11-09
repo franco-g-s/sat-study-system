@@ -1,0 +1,39 @@
+# Dependencies and build output
+node_modules/
+dist/
+out/
+*.tmp
+
+# College Board question-bank PDFs: copyrighted, never redistributed.
+# Every user exports their own (docs/setup.md, step 2).
+bank/
+
+# Derived from bank/ by the indexing run (docs/setup.md, step 3).
+data/qb_index.json
+data/rw_index.json
+data/*.new.json
+data/idx/
+data/tagimg/
+data/text_normalised.json
+data/figures_review.json
+
+# Tagging-pass working files (only needed to re-run the taxonomy assignment)
+data/assign/tasks/
+# ...but data/assign/out/ IS tracked: it is the tagging pass's output and the
+# input to merge_assignments.py, not a build artifact. The unanchored `out/`
+# above would otherwise swallow it.
+!data/assign/out/
+
+# Reference material read during authoring, never redistributed
+reference/
+
+# The learner's personal progress. Created by the tools on first use;
+# see state/README.md. The README itself is tracked.
+state/*.json
+state/*.tmp
+!state/README.md
+
+# Secrets and machine files
+.env
+.supernote-session.json
+.DS_Store

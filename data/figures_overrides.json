@@ -1,0 +1,249 @@
+{
+ "_note": "Hand labels for maths rows the derivation cannot decide (they clear the height gate and match no text marker). Applied by tools/derive_figures.py AFTER the rules, so a label here always wins and the row leaves the review queue. Every label was read off the question crop, not guessed from the text. Same vocabulary as the derived field: [] means no figure; dot plots, histograms and box plots are 'graph'.",
+ "data/qb_index.json": {
+  "b86123af": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "dba8d38a": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "ece00725": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "ee031767": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "e744499e": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "7d89376f": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "17f176ec": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "44d65912": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "cb8f449f": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "7a5a74a6": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "9a216c0f": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "340afb12": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "6e50ce28": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "6daf8d70": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "b7e6394d": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "e1248a5c": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "16889ef3": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "963da34c": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "830120b0": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "3f8a701b": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "b76a2815": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "7f81d0c3": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "652054da": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "630897df": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "c77ef2fb": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "2f958af9": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "928498f3": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "b47419f4": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "f65288e8": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "2c88af4d": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "22fd3e1f": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "b03adde3": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "5910bfff": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "ad038c19": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "89fc23af": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "2289b199": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "642519d7": {
+   "figures": [],
+   "why": "read from the crop 2026-09-29: tall stacked answer choices or displayed equations, no figure"
+  },
+  "720e51ac": {
+   "figures": [
+    "graph"
+   ],
+   "why": "read from the crop 2026-09-29: a plotted line, dot plot, histogram or box plot"
+  },
+  "7b1a3200": {
+   "figures": [
+    "graph"
+   ],
+   "why": "read from the crop 2026-09-29: a plotted line, dot plot, histogram or box plot"
+  },
+  "578e26ae": {
+   "figures": [
+    "graph"
+   ],
+   "why": "read from the crop 2026-09-29: a plotted line, dot plot, histogram or box plot"
+  },
+  "d94018fd": {
+   "figures": [
+    "graph"
+   ],
+   "why": "read from the crop 2026-09-29: a plotted line, dot plot, histogram or box plot"
+  },
+  "25fc031a": {
+   "figures": [
+    "graph"
+   ],
+   "why": "read from the crop 2026-09-29: a plotted line, dot plot, histogram or box plot"
+  },
+  "d3b9c8d8": {
+   "figures": [
+    "graph"
+   ],
+   "why": "read from the crop 2026-09-29: a plotted line, dot plot, histogram or box plot"
+  },
+  "608cf8e2": {
+   "figures": [
+    "graph"
+   ],
+   "why": "read from the crop 2026-09-29: a plotted line, dot plot, histogram or box plot"
+  },
+  "d65b9a87": {
+   "figures": [
+    "graph"
+   ],
+   "why": "read from the crop 2026-09-29: a plotted line, dot plot, histogram or box plot"
+  },
+  "f8a322d9": {
+   "figures": [
+    "graph"
+   ],
+   "why": "read from the crop 2026-09-29: a plotted line, dot plot, histogram or box plot"
+  },
+  "e7d48c8a": {
+   "figures": [
+    "graph"
+   ],
+   "why": "read from the crop 2026-09-29: a plotted line, dot plot, histogram or box plot"
+  },
+  "4626102e": {
+   "figures": [
+    "graph"
+   ],
+   "why": "read from the crop 2026-09-29: a plotted line, dot plot, histogram or box plot"
+  },
+  "0ea56bb2": {
+   "figures": [
+    "table"
+   ],
+   "why": "read from the crop 2026-09-29: a data table"
+  },
+  "1142af44": {
+   "figures": [
+    "table"
+   ],
+   "why": "read from the crop 2026-09-29: a data table"
+  },
+  "308084c5": {
+   "figures": [
+    "table"
+   ],
+   "why": "read from the crop 2026-09-29: a data table"
+  },
+  "939c46d1": {
+   "figures": [
+    "diagram"
+   ],
+   "why": "read from the crop 2026-09-29: a pictured object with labelled dimensions"
+  },
+  "37dde49f": {
+   "figures": [
+    "diagram"
+   ],
+   "why": "read from the crop 2026-09-29: a pictured object with labelled dimensions"
+  }
+ }
+}

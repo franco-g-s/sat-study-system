@@ -1,0 +1,62 @@
+[
+  {
+    "qid": "1ea09200",
+    "header_qid": "1ea09200",
+    "type": "determine generalisation scope",
+    "confidence": "high"
+  },
+  {
+    "qid": "37930b2a",
+    "header_qid": "37930b2a",
+    "type": "sampling variability and inference limits",
+    "confidence": "high"
+  },
+  {
+    "qid": "4a422e3e",
+    "header_qid": "4a422e3e",
+    "type": "identify sampling bias or method flaws",
+    "confidence": "high"
+  },
+  {
+    "qid": "642519d7",
+    "header_qid": "642519d7",
+    "type": "sampling variability and inference limits",
+    "confidence": "high"
+  },
+  {
+    "qid": "6fca0144",
+    "header_qid": "6fca0144",
+    "type": "determine generalisation scope",
+    "confidence": "high"
+  },
+  {
+    "qid": "7ce2830a",
+    "header_qid": "7ce2830a",
+    "type": "determine generalisation scope",
+    "confidence": "high"
+  },
+  {
+    "qid": "7d68096f",
+    "header_qid": "7d68096f",
+    "type": "determine generalisation scope",
+    "confidence": "high"
+  },
+  {
+    "qid": "aa43b41f",
+    "header_qid": "aa43b41f",
+    "type": "identify sampling bias or method flaws",
+    "confidence": "high"
+  },
+  {
+    "qid": "b4f5a7ca",
+    "header_qid": "b4f5a7ca",
+    "type": "determine generalisation scope",
+    "confidence": "high"
+  },
+  {
+    "qid": "b695711c",
+    "header_qid": "b695711c",
+    "type": "determine generalisation scope",
+    "confidence": "high"
+  }
+]

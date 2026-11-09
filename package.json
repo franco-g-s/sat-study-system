@@ -1,0 +1,22 @@
+{
+  "name": "sat-study-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Turns the College Board SAT question bank into timed, handwritable study sheets for the Supernote, driven by a 100-type taxonomy of SAT maths questions.",
+  "author": "Franco Gómez Schumacher",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "state:init": "python3 tools/types_state.py init",
+    "check": "python3 tools/check_taxonomy.py && python3 tools/check_primitives.py",
+    "verify": "swift tools/verify_index.swift data/qb_index.json && swift tools/verify_index.swift data/rw_index.json",
+    "test:unit": "node --test tools/ledger.test.mjs tools/check_math.test.mjs && python3 tools/check_taxonomy.test.py",
+    "test": "node --test tools/*.test.mjs && python3 tools/types_state.test.py && python3 tools/merge_assignments.test.py && python3 tools/check_taxonomy.test.py"
+  },
+  "dependencies": {
+    "katex": "^0.18.4",
+    "mathjs": "^15.2.0"
+  }
+}

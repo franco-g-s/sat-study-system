@@ -1,0 +1,1024 @@
+{
+ "_note": "Granular question types, derived bottom-up from the College Board educator bank by reading cropped question IMAGES (the maths is rendered, not text). One agent per CB skill, capped at 3-6 types, so the total is bounded arithmetically rather than by an adjective. Counts are out of a 12-question concentrated sample per skill; full-bank counts come from the assignment pass.",
+ "_derived": "2026-08-27",
+ "_pool": "1155 medium+hard questions across 19 CB skills",
+ "skills": {
+  "Linear functions": {
+   "pool": 85,
+   "types": [
+    {
+     "name": "find intercept from equation",
+     "procedure": "set the other variable to 0 and solve",
+     "cue": "x-intercept, y-intercept, crosses the axis",
+     "sample": 2
+    },
+    {
+     "name": "interpret slope or apply slope properties",
+     "procedure": "read slope from the equation; interpret as a rate, or use parallel/perpendicular to get a related slope",
+     "cue": "slope, rate per unit, parallel line",
+     "sample": 2
+    },
+    {
+     "name": "find linear function from points",
+     "procedure": "slope from two points, then point-slope or slope-intercept",
+     "cue": "which equation defines, table shows, find the function",
+     "sample": 2
+    },
+    {
+     "name": "write piecewise function from tiered pricing",
+     "procedure": "find the flat charge for the first tier and the rate per unit after it; apply the rate only to the units beyond the first tier",
+     "cue": "a flat charge for the first part, then a rate for each additional unit",
+     "sample": 3
+    },
+    {
+     "name": "evaluate function and compute",
+     "procedure": "substitute, evaluate, then do the arithmetic asked for",
+     "cue": "f(a) - f(b), evaluate the function",
+     "sample": 1
+    }
+   ]
+  },
+  "Linear equations in two variables": {
+   "pool": 68,
+   "types": [
+    {
+     "name": "perpendicular slope",
+     "procedure": "extract slope from any form, take the negative reciprocal",
+     "cue": "perpendicular to",
+     "sample": 2
+    },
+    {
+     "name": "parallel slope",
+     "procedure": "extract slope from any form, keep it",
+     "cue": "parallel to",
+     "sample": 1
+    },
+    {
+     "name": "equation from graph or table",
+     "procedure": "take two points, slope, then intercept",
+     "cue": "graph or table shows the relationship",
+     "sample": 2
+    },
+    {
+     "name": "find slope or intercept parameter",
+     "procedure": "substitute a known point or intercept into the line's equation and solve for the unknown constant",
+     "cue": "passes through a point with given slope",
+     "sample": 1
+    },
+    {
+     "name": "direct substitution into a sum",
+     "procedure": "given a total and one component, solve for the other",
+     "cue": "total is the sum of components",
+     "sample": 1
+    },
+    {
+     "name": "transform equation and find parameter",
+     "procedure": "apply the shift to the equation, then read the new intercept",
+     "cue": "shifted or transformed graph",
+     "sample": 1
+    }
+   ]
+  },
+  "Lines, angles, and triangles": {
+   "pool": 57,
+   "types": [
+    {
+     "name": "triangle angle sum",
+     "procedure": "use 180 degrees with isosceles or congruence facts",
+     "cue": "angles given, one unknown",
+     "sample": 4
+    },
+    {
+     "name": "similarity criteria",
+     "procedure": "decide which conditions establish AA, SAS~ or SSS~",
+     "cue": "which is sufficient to prove similarity",
+     "sample": 2
+    },
+    {
+     "name": "similar triangles - side proportion",
+     "procedure": "set up and solve a proportion of corresponding sides",
+     "cue": "triangles are similar, find a side",
+     "sample": 2
+    },
+    {
+     "name": "congruent triangles - segment length",
+     "procedure": "match corresponding vertices, use side equality",
+     "cue": "congruent triangles, find a segment",
+     "sample": 1
+    },
+    {
+     "name": "parallel lines - segment proportion",
+     "procedure": "spot the similar triangles in the configuration, then proportion",
+     "cue": "intersecting or parallel, segments given",
+     "sample": 2
+    },
+    {
+     "name": "triangle area",
+     "procedure": "identify base and height, then half base times height",
+     "cue": "area of a triangle, sides given",
+     "sample": 1
+    }
+   ]
+  },
+  "Area and volume": {
+   "pool": 72,
+   "types": [
+    {
+     "name": "direct formula application",
+     "procedure": "substitute the dimensions into the standard formula",
+     "cue": "find area or volume, dimensions given",
+     "sample": 5
+    },
+    {
+     "name": "formula inversion",
+     "procedure": "rearrange the formula to isolate the unknown dimension",
+     "cue": "find a dimension, given the volume or area",
+     "sample": 3
+    },
+    {
+     "name": "cone slant height from volume",
+     "procedure": "invert for height, then Pythagoras on radius and height",
+     "cue": "slant height, given volume and base",
+     "sample": 1
+    },
+    {
+     "name": "expression building with a constraint",
+     "procedure": "write every dimension in terms of one unknown, using the stated relationship or scale factors, then substitute into the formula and simplify",
+     "cue": "express the volume, with a relationship given",
+     "sample": 1
+    },
+    {
+     "name": "similar solids proportionality",
+     "procedure": "corresponding sides, ratio, solve",
+     "cue": "similar and corresponds, sides given",
+     "sample": 1
+    },
+    {
+     "name": "area scaling law",
+     "procedure": "area scales as the square of the linear factor",
+     "cue": "how many times, radius ratio",
+     "sample": 1
+    }
+   ]
+  },
+  "Nonlinear functions": {
+   "pool": 187,
+   "types": [
+    {
+     "name": "evaluate by direct substitution",
+     "procedure": "substitute the input and compute",
+     "cue": "what is f(...)",
+     "sample": 4
+    },
+    {
+     "name": "solve for the input value",
+     "procedure": "find the input that yields a stated output, from a table or the equation",
+     "cue": "for what input, when would, at what time",
+     "sample": 1
+    },
+    {
+     "name": "evaluate an exponential with doubling structure",
+     "procedure": "use the a*2^(t/n) form to read the period or evaluate",
+     "cue": "doubles every, find the doubling time",
+     "sample": 2
+    },
+    {
+     "name": "extract a parameter from the equation form",
+     "procedure": "manipulate until the wanted parameter is displayed",
+     "cue": "increases by n%, equivalent equation displaying",
+     "sample": 2
+    },
+    {
+     "name": "interpret the result in context",
+     "procedure": "compute, then pick the real-world reading of the answer",
+     "cue": "best interpretation, what does it mean here",
+     "sample": 2
+    },
+    {
+     "name": "construct a function from a scenario",
+     "procedure": "derive the rule from the stated constraints",
+     "cue": "which equation best represents, define, express as",
+     "sample": 2
+    },
+    {
+     "name": "solve a multi-variable equation for one letter",
+     "procedure": "rearrange to isolate, then substitute the rest",
+     "cue": "given ... and ..., solve for",
+     "sample": 1
+    },
+    {
+     "name": "find and interpret critical features",
+     "procedure": "locate vertex, roots or extrema and say what they mean",
+     "cue": "minimum, maximum, roots, what does it represent",
+     "sample": 3
+    },
+    {
+     "name": "identify structural elements from constraints",
+     "procedure": "read what a factor or term represents; combine constraints to pin a parameter",
+     "cue": "what does this factor or term represent, or which constant do the given points fix",
+     "sample": 3
+    }
+   ]
+  },
+  "Systems of two linear equations in two variables": {
+   "pool": 79,
+   "types": [
+    {
+     "name": "solve the system for a value",
+     "procedure": "substitute or eliminate, then extract what was asked",
+     "cue": "what is y, how many intersection points",
+     "sample": 5
+    },
+    {
+     "name": "parametrise dependent equations",
+     "procedure": "recognise scalar multiples; which point works for all r",
+     "cue": "for each real r, which point lies on both",
+     "sample": 2
+    },
+    {
+     "name": "find the coefficient for infinitely many solutions",
+     "procedure": "make the equations scalar multiples",
+     "cue": "infinitely many solutions, find the parameter",
+     "sample": 2
+    },
+    {
+     "name": "find the coefficient for no solution",
+     "procedure": "match the slopes, keep the intercepts distinct",
+     "cue": "no solution, find the parameter",
+     "sample": 2
+    },
+    {
+     "name": "model a word problem as a system",
+     "procedure": "turn the narrative into two equations and match",
+     "cue": "which system represents this situation",
+     "sample": 1
+    }
+   ]
+  },
+  "Percentages": {
+   "pool": 53,
+   "types": [
+    {
+     "name": "simple percent calculation",
+     "procedure": "multiply by the percent as a decimal",
+     "cue": "what is X% of Y",
+     "sample": 2
+    },
+    {
+     "name": "percent change with an unknown",
+     "procedure": "new = old x (1 + rate); rearrange for whichever is missing",
+     "cue": "X% greater or less than, one value missing",
+     "sample": 3
+    },
+    {
+     "name": "percent growth as a multiplier",
+     "procedure": "express the increase as a factor and apply it",
+     "cue": "is k times the previous",
+     "sample": 2
+    },
+    {
+     "name": "percent-defined relationships between quantities",
+     "procedure": "translate several 'X is Y% more than Z' into a system",
+     "cue": "multiple percent comparisons linking pairs",
+     "sample": 2
+    },
+    {
+     "name": "compound or chained percent operations",
+     "procedure": "apply the multipliers in sequence",
+     "cue": "percent applied twice, or chained 'is X% of'",
+     "sample": 3
+    }
+   ]
+  },
+  "Linear equations in one variable": {
+   "pool": 45,
+   "types": [
+    {
+     "name": "translate word problem to equation",
+     "procedure": "parse rates and constraints into an equation",
+     "cue": "which equation represents",
+     "sample": 4
+    },
+    {
+     "name": "solve for a repeated binomial",
+     "procedure": "spot the identical binomial on both sides and solve for IT, not for x",
+     "cue": "same expression on both sides",
+     "sample": 2
+    },
+    {
+     "name": "determine the number of solutions",
+     "procedure": "simplify both sides: identity, contradiction, or conditional",
+     "cue": "how many solutions",
+     "sample": 1
+    },
+    {
+     "name": "solve a standard linear equation",
+     "procedure": "distribute, collect, isolate",
+     "cue": "what value of the variable",
+     "sample": 4
+    }
+   ]
+  },
+  "Inference from sample statistics and margin of error": {
+   "pool": 17,
+   "types": [
+    {
+     "name": "margin of error from a confidence interval",
+     "procedure": "(upper - lower) / 2",
+     "cue": "find the margin of error",
+     "sample": 2
+    },
+    {
+     "name": "interpret a confidence interval",
+     "procedure": "build estimate +/- ME, pick the conclusion phrased as plausible not certain",
+     "cue": "most plausible conclusion",
+     "sample": 4
+    },
+    {
+     "name": "predict margin of error from sample size",
+     "procedure": "ME scales as 1/sqrt(n)",
+     "cue": "larger or doubled sample size",
+     "sample": 2
+    },
+    {
+     "name": "infer sample size from margin of error",
+     "procedure": "the larger ME came from the smaller sample",
+     "cue": "why different margins of error",
+     "sample": 1
+    },
+    {
+     "name": "estimate a population quantity from a sample",
+     "procedure": "sample proportion times population total",
+     "cue": "if the population is X, estimate",
+     "sample": 3
+    }
+   ]
+  },
+  "Nonlinear equations in one variable and systems of equations in two variables": {
+   "pool": 110,
+   "types": [
+    {
+     "name": "Vieta - sum or product of the roots",
+     "procedure": "use -b/a and c/a; never solve",
+     "cue": "sum or product of the solutions",
+     "sample": 2
+    },
+    {
+     "name": "quadratic solution extraction",
+     "procedure": "match the equation to a solution form, or test which option satisfies it",
+     "cue": "written as, which is a solution",
+     "sample": 2
+    },
+    {
+     "name": "discriminant or tangency",
+     "procedure": "use b^2-4ac for the count; set it to zero for tangency",
+     "cue": "how many solutions, exactly one point",
+     "sample": 2
+    },
+    {
+     "name": "rational equation manipulation",
+     "procedure": "clear denominators or cross-multiply, then solve",
+     "cue": "variable in a denominator, express in terms of",
+     "sample": 3
+    },
+    {
+     "name": "absolute value",
+     "procedure": "split into two cases by sign, solve each, apply the constraint",
+     "cue": "absolute value bars",
+     "sample": 1
+    },
+    {
+     "name": "system by substitution",
+     "procedure": "use the point or condition from one equation in the other",
+     "cue": "intersect at, substitute",
+     "sample": 2
+    }
+   ]
+  },
+  "Equivalent expressions": {
+   "pool": 67,
+   "types": [
+    {
+     "name": "perfect square trinomials",
+     "procedure": "spot a^2 +/- 2ab + b^2 and write it as (a +/- b)^2",
+     "cue": "perfect square trinomial, or under a radical",
+     "sample": 2
+    },
+    {
+     "name": "rational expression simplification",
+     "procedure": "factor and cancel, or do polynomial long division",
+     "cue": "simplify the fraction, quotient plus remainder",
+     "sample": 2
+    },
+    {
+     "name": "combine rational expressions",
+     "procedure": "find the LCD, rewrite, combine into one fraction",
+     "cue": "combine or subtract fractions",
+     "sample": 1
+    },
+    {
+     "name": "expand and simplify polynomials",
+     "procedure": "expand the products, collect like terms",
+     "cue": "equivalent form, find unknown coefficients",
+     "sample": 4
+    },
+    {
+     "name": "apply exponent rules",
+     "procedure": "add exponents on like bases; radicals as fractional exponents",
+     "cue": "multiply with exponents, simplify radicals",
+     "sample": 2
+    },
+    {
+     "name": "factor out common terms",
+     "procedure": "identify the GCF, factor it out, simplify",
+     "cue": "simplify a sum of fractions",
+     "sample": 1
+    }
+   ]
+  },
+  "Circles": {
+   "pool": 59,
+   "types": [
+    {
+     "name": "evaluate a trig function after simplifying the angle",
+     "procedure": "reduce or scale the angle, then compute",
+     "cue": "sin/cos/tan of a large or unusual angle",
+     "sample": 2
+    },
+    {
+     "name": "convert between radians and degrees",
+     "procedure": "multiply by 180/pi or pi/180",
+     "cue": "convert radians to degrees or back",
+     "sample": 2
+    },
+    {
+     "name": "centre and radius from standard form",
+     "procedure": "read (h,k) and sqrt of the right-hand side; apply tangency if asked",
+     "cue": "radius from the equation, tangent to an axis",
+     "sample": 2
+    },
+    {
+     "name": "circumference from arc information",
+     "procedure": "arc length s = r*theta, or the fractional-circumference route",
+     "cue": "arc length and central angle given",
+     "sample": 2
+    },
+    {
+     "name": "coordinate constraints from the circle equation",
+     "procedure": "substitute the known coordinate and solve for the other",
+     "cue": "point lies on the circle",
+     "sample": 2
+    },
+    {
+     "name": "transform a circle equation",
+     "procedure": "shift the centre and/or scale the radius, rewrite",
+     "cue": "circle is shifted or the radius scaled",
+     "sample": 2
+    }
+   ]
+  },
+  "Ratios, rates, proportional relationships, and units": {
+   "pool": 46,
+   "types": [
+    {
+     "name": "solve for an unknown in a proportion",
+     "procedure": "cross-multiply or substitute, then solve",
+     "cue": "two ratios set equal",
+     "sample": 3
+    },
+    {
+     "name": "convert between units",
+     "procedure": "chain the conversion factors",
+     "cue": "convert to, how many X in Y",
+     "sample": 6
+    },
+    {
+     "name": "scale a result by a rate or factor",
+     "procedure": "apply the rate to the quantity",
+     "cue": "rate per unit, density times quantity",
+     "sample": 2
+    },
+    {
+     "name": "calculate the change that preserves a ratio",
+     "procedure": "write the ratio-preservation equation and solve",
+     "cue": "maintain the ratio",
+     "sample": 1
+    }
+   ]
+  },
+  "Evaluating statistical claims: Observational studies and experiments": {
+   "pool": 10,
+   "types": [
+    {
+     "name": "identify sampling bias or method flaws",
+     "procedure": "decide whether the sampling method makes the result unreliable",
+     "cue": "what is wrong with how they sampled",
+     "sample": 2
+    },
+    {
+     "name": "determine generalisation scope",
+     "procedure": "match the selection criteria to the population it can speak for",
+     "cue": "largest population the results apply to",
+     "sample": 6
+    },
+    {
+     "name": "sampling variability and inference limits",
+     "procedure": "recognise that a sample statistic cannot guarantee a population value",
+     "cue": "which statement must be true",
+     "sample": 2
+    }
+   ]
+  },
+  "Right triangles and trigonometry": {
+   "pool": 55,
+   "types": [
+    {
+     "name": "Pythagorean theorem",
+     "procedure": "a^2 + b^2 = c^2 for the missing side",
+     "cue": "hypotenuse, diagonal, third side",
+     "sample": 4
+    },
+    {
+     "name": "direct trig ratio from sides",
+     "procedure": "label opposite/adjacent/hypotenuse, then compute the ratio",
+     "cue": "find sin, cos or tan",
+     "sample": 3
+    },
+    {
+     "name": "complementary angle identity",
+     "procedure": "sin(theta) = cos(90 - theta) when the angles sum to 90",
+     "cue": "angles sum to 90, sin equals cos",
+     "sample": 2
+    },
+    {
+     "name": "trig ratio to find a side",
+     "procedure": "set up sin/cos/tan = ratio and solve for the unknown side",
+     "cue": "find the side, which expression",
+     "sample": 2
+    },
+    {
+     "name": "special right triangle properties",
+     "procedure": "apply 30-60-90 or 45-45-90 side ratios",
+     "cue": "equilateral, height given",
+     "sample": 1
+    }
+   ]
+  },
+  "Linear inequalities in one or two variables": {
+   "pool": 47,
+   "types": [
+    {
+     "name": "graph interpretation",
+     "procedure": "read the boundary line and shading, get the direction",
+     "cue": "graph with a shaded region",
+     "sample": 2
+    },
+    {
+     "name": "point or table testing",
+     "procedure": "substitute the coordinates and check every constraint",
+     "cue": "which point or table satisfies it",
+     "sample": 3
+    },
+    {
+     "name": "substitution and solving",
+     "procedure": "substitute the given value, solve for the other variable's bound",
+     "cue": "given one variable, find max or min of the other",
+     "sample": 2
+    },
+    {
+     "name": "translate a scenario to an inequality",
+     "procedure": "parse the constraint and match the inequality form",
+     "cue": "word problem, which inequality",
+     "sample": 3
+    },
+    {
+     "name": "solve an inequality numerically",
+     "procedure": "set up from the constraint and solve for the extreme value",
+     "cue": "find the maximum or minimum amount",
+     "sample": 2
+    }
+   ]
+  },
+  "One-variable data: Distributions and measures of center and spread": {
+   "pool": 40,
+   "types": [
+    {
+     "name": "centre statistic from a raw list",
+     "procedure": "sum and divide for mean; order and take the middle for median",
+     "cue": "what is the mean or median of these values",
+     "sample": 2
+    },
+    {
+     "name": "read a feature from a frequency table",
+     "procedure": "locate and extract",
+     "cue": "read a value, minimum, maximum or range off a table or plot",
+     "sample": 1
+    },
+    {
+     "name": "identify the smallest spread",
+     "procedure": "compare ranges or clustering, pick the most concentrated",
+     "cue": "which has the smallest standard deviation",
+     "sample": 1
+    },
+    {
+     "name": "combine means as a weighted average",
+     "procedure": "(n1*m1 + n2*m2) / (n1+n2)",
+     "cue": "mean when the datasets combine",
+     "sample": 1
+    },
+    {
+     "name": "solve constraint equations on statistics",
+     "procedure": "set up the equation the statistics must satisfy and solve",
+     "cue": "a condition on the mean, median or range is given; which value or data set is possible",
+     "sample": 2
+    },
+    {
+     "name": "compare statistics across conditions",
+     "procedure": "compute or read both, then decide which comparison holds",
+     "cue": "which statement compares the two",
+     "sample": 5
+    }
+   ]
+  },
+  "Probability and conditional probability": {
+   "pool": 23,
+   "types": [
+    {
+     "name": "direct probability",
+     "procedure": "count favourable outcomes over the total",
+     "cue": "what is the probability of",
+     "sample": 4
+    },
+    {
+     "name": "probability equations",
+     "procedure": "use the rules algebraically to solve for an unknown count",
+     "cue": "given probabilities, find a count",
+     "sample": 1
+    },
+    {
+     "name": "conditional probability",
+     "procedure": "restrict to the condition's subset, then take the intersection over it",
+     "cue": "given that, what is the probability",
+     "sample": 7
+    }
+   ]
+  },
+  "Two-variable data: Models and scatterplots": {
+   "pool": 35,
+   "types": [
+    {
+     "name": "slope from the line of best fit",
+     "procedure": "pick two points ON the line, rise over run",
+     "cue": "closest to the slope",
+     "sample": 3
+    },
+    {
+     "name": "average rate of change",
+     "procedure": "read the two points at the named x-values, then the gradient",
+     "cue": "average rate of change from ... to",
+     "sample": 2
+    },
+    {
+     "name": "fit a model to the data",
+     "procedure": "recognise the curve family, match the equation or solve for a parameter",
+     "cue": "which equation best models",
+     "sample": 2
+    },
+    {
+     "name": "recognise the growth pattern",
+     "procedure": "classify exponential vs linear, or find when one exceeds the other",
+     "cue": "increases by %, which is true about the values",
+     "sample": 2
+    }
+   ]
+  }
+ },
+ "cross_skill_types": [
+  {
+   "name": "interpret a component in context",
+   "procedure": "take the named coefficient, intercept, term or line feature and say what it means in the scenario",
+   "cue": "best interpretation of, what does this represent, what does it mean here",
+   "spans": [
+    "Linear functions",
+    "Linear equations in two variables",
+    "Linear equations in one variable",
+    "Two-variable data: Models and scatterplots"
+   ]
+  }
+ ],
+ "primitives": [
+  {
+   "name": "factor a quadratic",
+   "what": "ax^2+bx+c -> (x-t)(x-u); find the pair with product ac and sum b",
+   "appears_in": [
+    "expand and simplify polynomials",
+    "rational expression simplification",
+    "quadratic solution extraction",
+    "Vieta - sum or product of the roots",
+    "find and interpret critical features",
+    "perfect square trinomials"
+   ]
+  },
+  {
+   "name": "complete the square",
+   "what": "halve the x-coefficient, square it, add and subtract",
+   "appears_in": [
+    "discriminant or tangency",
+    "find and interpret critical features",
+    "centre and radius from standard form",
+    "transform a circle equation"
+   ]
+  },
+  {
+   "name": "expand a product",
+   "what": "binomial products and squares, then collect",
+   "appears_in": [
+    "expand and simplify polynomials",
+    "perfect square trinomials",
+    "quadratic solution extraction"
+   ]
+  },
+  {
+   "name": "exponent and radical rules",
+   "what": "add exponents on like bases, and SPLIT them the other way: b^(x+k) = b^k * b^x, which is how a constant hidden in the exponent is brought out as a coefficient",
+   "appears_in": [
+    "apply exponent rules",
+    "evaluate an exponential with doubling structure",
+    "extract a parameter from the equation form",
+    "evaluate by direct substitution",
+    "identify structural elements from constraints"
+   ]
+  },
+  {
+   "name": "clear denominators",
+   "what": "multiply through or cross-multiply",
+   "appears_in": [
+    "rational equation manipulation",
+    "combine rational expressions",
+    "solve for an unknown in a proportion"
+   ]
+  },
+  {
+   "name": "isolate a variable",
+   "what": "rearrange for one letter, treating the rest as constants",
+   "appears_in": [
+    "solve a multi-variable equation for one letter",
+    "formula inversion",
+    "solve a standard linear equation"
+   ]
+  },
+  {
+   "name": "count solutions without solving",
+   "what": "compare coefficients, or read the sign of the discriminant. Structural, never solve",
+   "appears_in": [
+    "determine the number of solutions",
+    "discriminant or tangency",
+    "find the coefficient for infinitely many solutions",
+    "find the coefficient for no solution"
+   ]
+  },
+  {
+   "name": "match coefficients between two forms",
+   "what": "equate term by term to pin unknown constants",
+   "appears_in": [
+    "identify structural elements from constraints",
+    "extract a parameter from the equation form",
+    "quadratic solution extraction"
+   ]
+  },
+  {
+   "name": "slope from two points",
+   "what": "rise over run; also from a table or a drawn line",
+   "appears_in": [
+    "find linear function from points",
+    "equation from graph or table",
+    "slope from the line of best fit",
+    "average rate of change"
+   ]
+  },
+  {
+   "name": "slope from an equation in any form",
+   "what": "rearrange to y = mx + b, or read -A/B from standard form",
+   "appears_in": [
+    "interpret slope or apply slope properties",
+    "perpendicular slope",
+    "parallel slope"
+   ]
+  },
+  {
+   "name": "perpendicular and parallel slope relation",
+   "what": "perpendicular flips AND negates; parallel keeps",
+   "appears_in": [
+    "perpendicular slope",
+    "parallel slope",
+    "interpret slope or apply slope properties"
+   ]
+  },
+  {
+   "name": "find an intercept",
+   "what": "set the other variable to zero and solve",
+   "appears_in": [
+    "find intercept from equation",
+    "find slope or intercept parameter",
+    "find and interpret critical features"
+   ]
+  },
+  {
+   "name": "translate a scenario into an equation",
+   "what": "name what each variable counts WITH ITS UNIT, build rate x count",
+   "appears_in": [
+    "translate word problem to equation",
+    "model a word problem as a system",
+    "construct a function from a scenario",
+    "translate a scenario to an inequality",
+    "expression building with a constraint"
+   ]
+  },
+  {
+   "name": "base plus rate structure",
+   "what": "fixed part + per-unit part; watch the (n-1)",
+   "appears_in": [
+    "write piecewise function from tiered pricing",
+    "translate word problem to equation",
+    "find linear function from points"
+   ]
+  },
+  {
+   "name": "initial value and growth factor",
+   "what": "a*b^x: read a at x=0 and b per period; put the exponent over t as t/T",
+   "appears_in": [
+    "construct a function from a scenario",
+    "evaluate an exponential with doubling structure",
+    "percent growth as a multiplier",
+    "recognise the growth pattern"
+   ]
+  },
+  {
+   "name": "interpret a component in context",
+   "what": "map a coefficient or feature onto the real-world quantity",
+   "appears_in": [
+    "interpret a component in context",
+    "interpret the result in context"
+   ]
+  },
+  {
+   "name": "apply a named formula",
+   "what": "area, volume, circumference - most are on the SAT reference sheet",
+   "appears_in": [
+    "direct formula application",
+    "triangle area",
+    "circumference from arc information"
+   ]
+  },
+  {
+   "name": "invert a formula",
+   "what": "rearrange the formula for the unknown dimension before substituting",
+   "appears_in": [
+    "formula inversion",
+    "cone slant height from volume"
+   ]
+  },
+  {
+   "name": "set up a proportion from similar figures",
+   "what": "corresponding sides, ratio, cross-multiply",
+   "appears_in": [
+    "similar triangles - side proportion",
+    "parallel lines - segment proportion",
+    "similar solids proportionality",
+    "solve for an unknown in a proportion"
+   ]
+  },
+  {
+   "name": "Pythagoras",
+   "what": "a^2 + b^2 = c^2; hypotenuse is the LONGEST side",
+   "appears_in": [
+    "Pythagorean theorem",
+    "cone slant height from volume"
+   ]
+  },
+  {
+   "name": "label a right triangle",
+   "what": "find the hypotenuse and the right angle BEFORE reaching for a ratio",
+   "appears_in": [
+    "direct trig ratio from sides",
+    "trig ratio to find a side",
+    "complementary angle identity"
+   ]
+  },
+  {
+   "name": "angle relations",
+   "what": "180 in a triangle; vertical equal; parallel-line pairs; complementary",
+   "appears_in": [
+    "triangle angle sum",
+    "parallel lines - segment proportion",
+    "complementary angle identity"
+   ]
+  },
+  {
+   "name": "scaling laws",
+   "what": "length k -> area k^2 -> volume k^3",
+   "appears_in": [
+    "area scaling law",
+    "similar solids proportionality"
+   ]
+  },
+  {
+   "name": "read a value off a chart or table",
+   "what": "locate and extract; check whether the figure is needed at all",
+   "appears_in": [
+    "read a feature from a frequency table",
+    "point or table testing",
+    "graph interpretation"
+   ]
+  },
+  {
+   "name": "centre and spread",
+   "what": "mean, median; shift moves centre and leaves spread",
+   "appears_in": [
+    "centre statistic from a raw list",
+    "compare statistics across conditions",
+    "identify the smallest spread"
+   ]
+  },
+  {
+   "name": "weighted average",
+   "what": "(n1*m1 + n2*m2)/(n1+n2)",
+   "appears_in": [
+    "combine means as a weighted average"
+   ]
+  },
+  {
+   "name": "probability from a table",
+   "what": "favourable over total; for conditional, restrict to the condition's row first",
+   "appears_in": [
+    "direct probability",
+    "conditional probability",
+    "probability equations"
+   ]
+  },
+  {
+   "name": "percent as a multiplier",
+   "what": "X% off -> (100-X)% of; increase -> (1 + r)",
+   "appears_in": [
+    "simple percent calculation",
+    "percent change with an unknown",
+    "compound or chained percent operations",
+    "percent-defined relationships between quantities"
+   ]
+  },
+  {
+   "name": "unit conversion by factor chain",
+   "what": "dimensional analysis; cancel the units",
+   "appears_in": [
+    "convert between units",
+    "convert between radians and degrees"
+   ]
+  },
+  {
+   "name": "margin of error arithmetic",
+   "what": "ME = (upper-lower)/2; ME scales as 1/sqrt(n)",
+   "appears_in": [
+    "margin of error from a confidence interval",
+    "predict margin of error from sample size",
+    "infer sample size from margin of error",
+    "interpret a confidence interval"
+   ]
+  },
+  {
+   "name": "scale a sample to a population",
+   "what": "sample proportion x population total",
+   "appears_in": [
+    "estimate a population quantity from a sample",
+    "determine generalisation scope"
+   ]
+  },
+  {
+   "name": "test a case instead of reasoning",
+   "what": "pick a legal concrete case and check the options; 'must be' dies to one counterexample",
+   "appears_in": [
+    "quadratic solution extraction",
+    "point or table testing",
+    "similarity criteria"
+   ]
+  },
+  {
+   "name": "read a factored form",
+   "what": "(x-r)(x-s) hands you the zeros r and s directly, and the vertex sits at their midpoint (r+s)/2. A zero in a table or on a graph means that factor. Never expand to find any of these -- expanding is the slow way to the thing the form is already telling you.",
+   "appears_in": [
+    "find and interpret critical features",
+    "identify structural elements from constraints",
+    "quadratic solution extraction",
+    "Vieta - sum or product of the roots"
+   ]
+  },
+  {
+   "name": "undo a square or an absolute value into two cases",
+   "what": "A square and an absolute value both DESTROY the sign, so undoing one always gives TWO cases, and the relation decides which two. |A|=k -> A=k or A=-k. sqrt(A^2)=|A|, not A. x^2<k -> -sqrt(k)<x<sqrt(k), a BAND. x^2>k -> x<-sqrt(k) or x>sqrt(k), TWO TAILS. Never carry a +/- into an inequality: 'b < +/-52' is not a statement. Write the band or the tails first, THEN apply the question's own constraints (positive, integer, greatest).",
+   "appears_in": [
+    "absolute value",
+    "discriminant or tangency"
+   ]
+  }
+ ],
+ "_corrections": []
+}

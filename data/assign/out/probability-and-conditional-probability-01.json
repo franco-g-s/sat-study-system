@@ -1,0 +1,140 @@
+[
+ {
+  "qid": "014c47ab",
+  "header_qid": "014c47ab",
+  "type": "conditional probability",
+  "confidence": "high"
+ },
+ {
+  "qid": "0301c5dc",
+  "header_qid": "0301c5dc",
+  "type": "direct probability",
+  "confidence": "high"
+ },
+ {
+  "qid": "0ae37ff3",
+  "header_qid": "0ae37ff3",
+  "type": "direct probability",
+  "confidence": "high"
+ },
+ {
+  "qid": "1fc4f47b",
+  "header_qid": "1fc4f47b",
+  "type": "probability equations",
+  "confidence": "high"
+ },
+ {
+  "qid": "2df8f293",
+  "header_qid": "2df8f293",
+  "type": "direct probability",
+  "confidence": "high"
+ },
+ {
+  "qid": "30db8f77",
+  "header_qid": "30db8f77",
+  "type": "probability equations",
+  "confidence": "high"
+ },
+ {
+  "qid": "38a9ac45",
+  "header_qid": "38a9ac45",
+  "type": "direct probability",
+  "confidence": "high"
+ },
+ {
+  "qid": "46b2e169",
+  "header_qid": "46b2e169",
+  "type": "direct probability",
+  "confidence": "high"
+ },
+ {
+  "qid": "5dc386fb",
+  "header_qid": "5dc386fb",
+  "type": "conditional probability",
+  "confidence": "high"
+ },
+ {
+  "qid": "6a715bed",
+  "header_qid": "6a715bed",
+  "type": "conditional probability",
+  "confidence": "high"
+ },
+ {
+  "qid": "89f20d9e",
+  "header_qid": "89f20d9e",
+  "type": "conditional probability",
+  "confidence": "high"
+ },
+ {
+  "qid": "89ff6a0a",
+  "header_qid": "89ff6a0a",
+  "type": "conditional probability",
+  "confidence": "high"
+ },
+ {
+  "qid": "912cd125",
+  "header_qid": "912cd125",
+  "type": "conditional probability",
+  "confidence": "high"
+ },
+ {
+  "qid": "9ce8cbbe",
+  "header_qid": "9ce8cbbe",
+  "type": "direct probability",
+  "confidence": "high"
+ },
+ {
+  "qid": "a3384df0",
+  "header_qid": "a3384df0",
+  "type": "direct probability",
+  "confidence": "high"
+ },
+ {
+  "qid": "b1b5300b",
+  "header_qid": "b1b5300b",
+  "type": "direct probability",
+  "confidence": "high"
+ },
+ {
+  "qid": "b6569d0e",
+  "header_qid": "b6569d0e",
+  "type": "conditional probability",
+  "confidence": "high"
+ },
+ {
+  "qid": "e1ad3d41",
+  "header_qid": "e1ad3d41",
+  "type": "conditional probability",
+  "confidence": "high"
+ },
+ {
+  "qid": "e438ec3f",
+  "header_qid": "e438ec3f",
+  "type": "conditional probability",
+  "confidence": "high"
+ },
+ {
+  "qid": "e9ed719f",
+  "header_qid": "e9ed719f",
+  "type": "direct probability",
+  "confidence": "high"
+ },
+ {
+  "qid": "ed6b7e5f",
+  "header_qid": "ed6b7e5f",
+  "type": "conditional probability",
+  "confidence": "high"
+ },
+ {
+  "qid": "f496d2c0",
+  "header_qid": "f496d2c0",
+  "type": "conditional probability",
+  "confidence": "high"
+ },
+ {
+  "qid": "f8696cd8",
+  "header_qid": "f8696cd8",
+  "type": "conditional probability",
+  "confidence": "high"
+ }
+]
