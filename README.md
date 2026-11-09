@@ -161,3 +161,7 @@ built from them, to a public repository.
 share it. If you distribute a modified version, or run one as a network service,
 you must publish your changes under the same license. Sheet rendering depends on
 [xiehanzi](https://github.com/franco-g-s/xiehanzi), also AGPL-3.0.
+
+Want to use it in a closed-source or commercial product without those
+obligations? A separate commercial license is available: get in touch through
+[franco.international](https://franco.international).
